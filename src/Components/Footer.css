@@ -1,0 +1,46 @@
+.Footer {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #080707;
+    padding: 20px;
+    color: white;
+    flex-direction: row;
+  }
+  
+  .Footer p {
+    margin: 0;
+    padding: 5px;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .about p {
+    margin: 5px;
+  }
+  
+  .about img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+  }
+  
+  .about span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .Footer {
+      flex-direction: row;
+      /* height: 1rem; */
+    }
+  }
+  

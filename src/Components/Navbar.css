@@ -1,0 +1,143 @@
+
+.main{
+  padding: 0px 0px 0px 50px;
+  /* width: 100%; */
+  display: flex;
+}
+
+.connect{
+  color: #6B60EB;
+
+}
+  .body{
+    background-image: url(https://alexandria-web-dev.vercel.app/static/media/hero-bg.e264b2f8beaa5fab4c9c.png);
+    /* border-image-repeat: no-repeat; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  body {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  header {
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    background-color: #fff;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+    /* color: white; */
+    /* margin: 0.25rem; */
+  }
+
+  nav a {
+    /* margin: 0.25rem; */
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    color: white;
+  }
+
+
+  .bookchain {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    color: white;
+    /* font-size: 5rem; */
+    padding: 0rem 2.5rem;
+    
+  }
+
+  .bookchain h1 {
+    font-size: 7rem;
+    margin-bottom: 2rem;  
+    font-family: 'Prata';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+
+  .bookchain p {
+    font-size: 2rem;
+    width: 60%;
+    /* margin-bottom: 2rem; */
+    text-align: center;
+  }
+
+  .bookchain .buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+
+  .bookchain .buttons button {
+    padding: 0rem 2rem;
+    /* font-size: 1.2rem; */
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    width: 223px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+
+  .bookchain .books {
+    width: 100%;
+    /* margin-top: 2rem; */
+  }
+
+
+  .explore{
+    background: linear-gradient(90deg, #6B60EB 0%, #CE5FE6 100%);
+    color: white;
+  }
+  .publish{
+    background-color: white;
+    color: #6B60EB;
+  }
+  
+  @media (max-width: 768px) {
+  
+    body {
+      font-size: 18px;
+    }
+
+    .bookchain {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 4rem;
+    }
+
+    .bookchain h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+
+/* 
+      font-size: 2.5rem;
+    margin-bottom: 1rem; */
+    }
+
+    .bookchain p {
+          font-size: 1rem;
+      margin-right: 2rem;
+    }
+    /* .bookchain img{
+      width: 1005rem;
+      height: 10rem;
+    } */
+    
+  }
+  
